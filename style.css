@@ -1,0 +1,88 @@
+#main-container {
+  text-align: center;
+  width: 860px;
+  background-color: #fff;
+  border-radius: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid rgb(249, 246, 246);
+  border-top: 380px solid #fb032d;
+  border-bottom: 16px solid #fb032d;
+  height: 1160px;
+  box-shadow: 0 0 10px 1px #fb032d;
+  border-left: none;
+  border-right: none;
+}
+img{
+  display: inline-block;
+  border-radius: 50%;
+  filter: drop-shadow(0px 0px 4px rgb(245, 3, 43));
+  margin: auto;
+}
+#profile-container {
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fb9cac;
+  position: relative;
+  top: -380px;
+}
+#name-container {
+  position: relative;
+  top: -380px;
+  padding: 0 20px;
+  padding-top: 100px;
+}
+
+p {
+  text-align: justify;
+}
+
+ul li{
+  text-align: left;
+}
+
+#about-me, .contact, .education, .work-experience, .skills {
+  background-color: #fb032d;
+  padding: 8px 0;
+  border-radius: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  
+}
+.education {
+  margin-top: 20px;
+}
+
+.name {
+  color: #fff;
+  font-size: 54px;
+  font-weight: 900;
+  font-family: 'Edwardian Script ITC';
+  margin: 0;
+  letter-spacing: 4px;
+  line-height: 46px;
+  text-shadow: 1px 1px gray;
+}
+.job-title {
+  background-color: #fff;
+  padding: 8px 0;
+  border-radius: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+li span {
+  font-size: 14px;
+  font-weight: 600;
+}
+li ul li {
+  font-size: 15px;
+}
+.work-experience {
+  margin-top: 44px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+
